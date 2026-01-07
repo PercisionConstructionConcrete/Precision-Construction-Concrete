@@ -89,12 +89,13 @@
     /* Gallery placeholders */
     .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
     .ph{
-      aspect-ratio: 4/3;
-      border-radius:16px;
-      border:1px dashed rgba(255,255,255,.22);
-      background: linear-gradient(135deg, rgba(255,255,255,.06), rgba(255,255,255,.02));
-      display:flex;align-items:center;justify-content:center;color:rgba(234,240,255,.65);
-      font-weight:800;
+   .galimg{
+  width:100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  border-radius:16px;
+  border:1px solid rgba(255,255,255,.12);
+  background: rgba(255,255,255,.04);
     }
 
     /* Quote form */
@@ -243,9 +244,11 @@
       <h2 class="sectionTitle">Recent work</h2>
       <p class="sectionSub">Replace these placeholders with your job photos as you complete projects.</p>
       <div class="gallery">
-        <div class="ph">Driveway — Before/After</div>
-        <div class="ph">Patio Slab</div>
-        <div class="ph">Walkway</div>
+      <div class="gallery">
+  <img class="galimg" src="driveway-before-after.png" alt="Driveway before and after - Precision Concrete & Construction">
+  <img class="galimg" src="roof-before-after.png" alt="Roof before and after - Precision Concrete & Construction">
+  <img class="galimg" src="interior-before-after.png" alt="Interior paint & flooring before and after - Precision Concrete & Construction">
+</div>
       </div>
     </section>
 
