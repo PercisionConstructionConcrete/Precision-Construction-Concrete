@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Driveways & Patios Houston | Precision Concrete & Construction</title>
+  <meta name="description" content="Residential concrete driveways, patios, slabs, and walkways in Houston & surrounding areas. Fast quotes, clean work, and reliable scheduling." />
+  <meta name="robots" content="index,follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Driveways & Patios Houston | Precision Concrete & Construction" />
+  <meta property="og:description" content="Concrete driveways, patios, slabs, and small jobs. Request a free quote." />
+  <meta property="og:type" content="website" />
+
+  <!-- Simple, modern styling (no build tools needed) -->
+  <style>
+    :root{
+      --bg:#0b1220;
+      --card:#111a2e;
+      --text:#eaf0ff;
+      --muted:#b6c2e6;
+      --accent:#7dd3fc;
+      --accent2:#a78bfa;
+      --line:rgba(255,255,255,.12);
+      --shadow: 0 18px 50px rgba(0,0,0,.35);
+      --radius:18px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      color:var(--text);
+      background: radial-gradient(1200px 600px at 30% 0%, rgba(125,211,252,.18), transparent 60%),
+                  radial-gradient(900px 500px at 80% 20%, rgba(167,139,250,.18), transparent 55%),
+                  var(--bg);
+      line-height:1.55;
+    }
+    a{color:inherit}
+    .wrap{max-width:1100px;margin:0 auto;padding:0 20px}
+
+    /* Top bar */
+    header{position:sticky;top:0;z-index:10;background:rgba(11,18,32,.72);backdrop-filter: blur(10px);border-bottom:1px solid var(--line)}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 0}
+    .brand{display:flex;align-items:center;gap:10px;text-decoration:none}
+    .logo{
+      width:34px;height:34px;border-radius:10px;
+      background: linear-gradient(135deg, rgba(125,211,252,1), rgba(167,139,250,1));
+      box-shadow: 0 10px 30px rgba(125,211,252,.16);
+    }
+    .brand b{letter-spacing:.2px}
+    .navlinks{display:flex;gap:18px;align-items:center}
+    .navlinks a{opacity:.9;text-decoration:none;font-weight:600}
+    .navlinks a:hover{opacity:1}
+    .cta{display:flex;gap:10px;align-items:center}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;
+      padding:10px 14px;border-radius:999px;border:1px solid var(--line);background:rgba(255,255,255,.06);
+      text-decoration:none;font-weight:700;box-shadow:none;transition:transform .08s ease, background .15s ease}
+    .btn:hover{background:rgba(255,255,255,.10)}
+    .btn:active{transform:translateY(1px)}
+    .btn.primary{border-color:rgba(125,211,252,.55);background:linear-gradient(135deg, rgba(125,211,252,.18), rgba(167,139,250,.12))}
+
+    /* Hero */
+    .hero{padding:54px 0 26px}
+    .grid{display:grid;grid-template-columns: 1.2fr .8fr;gap:22px;align-items:stretch}
+    .headline{font-size:44px;line-height:1.08;margin:0 0 12px;letter-spacing:-.7px}
+    .sub{color:var(--muted);font-size:18px;margin:0 0 18px;max-width:55ch}
+    .badges{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 18px}
+    .pill{border:1px solid var(--line);background:rgba(255,255,255,.06);padding:7px 10px;border-radius:999px;font-weight:700;font-size:13px;color:var(--muted)}
+    .card{background:rgba(17,26,46,.72);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+    .heroCard{padding:18px}
+    .heroCard h3{margin:0 0 10px}
+    .heroCard p{margin:0 0 14px;color:var(--muted)}
+    .heroCard ul{margin:0;padding:0;list-style:none;display:grid;gap:10px}
+    .heroCard li{display:flex;gap:10px;align-items:flex-start;color:var(--muted)}
+    .check{width:18px;height:18px;border-radius:6px;background:rgba(125,211,252,.18);border:1px solid rgba(125,211,252,.35);display:inline-flex;align-items:center;justify-content:center;font-weight:900;color:var(--accent)}
+
+    /* Sections */
+    section{padding:36px 0}
+    .sectionTitle{font-size:26px;margin:0 0 6px}
+    .sectionSub{margin:0 0 18px;color:var(--muted)}
+
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+    .svc{padding:16px}
+    .svc b{display:block;margin-bottom:6px}
+    .svc p{margin:0;color:var(--muted)}
+
+    .two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+
+    /* Gallery placeholders */
+    .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+    .ph{
+      aspect-ratio: 4/3;
+      border-radius:16px;
+      border:1px dashed rgba(255,255,255,.22);
+      background: linear-gradient(135deg, rgba(255,255,255,.06), rgba(255,255,255,.02));
+      display:flex;align-items:center;justify-content:center;color:rgba(234,240,255,.65);
+      font-weight:800;
+    }
+
+    /* Quote form */
+    form{padding:16px}
+    label{display:block;font-weight:800;margin:10px 0 6px}
+    input, textarea, select{
+      width:100%;padding:12px 12px;border-radius:14px;border:1px solid var(--line);
+      background:rgba(255,255,255,.06);color:var(--text);outline:none
+    }
+    textarea{min-height:110px;resize:vertical}
+    .row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    .note{font-size:13px;color:var(--muted);margin:10px 0 0}
+
+    footer{padding:26px 0 40px;border-top:1px solid var(--line);color:var(--muted)}
+    .foot{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between}
+
+    /* Responsive */
+    @media (max-width: 900px){
+      .grid{grid-template-columns:1fr}
+      .headline{font-size:38px}
+      .cards{grid-template-columns:1fr}
+      .two{grid-template-columns:1fr}
+      .gallery{grid-template-columns:1fr 1fr}
+      .navlinks{display:none}
+    }
+    @media (max-width: 520px){
+      .headline{font-size:34px}
+      .gallery{grid-template-columns:1fr}
+      .row{grid-template-columns:1fr}
+    }
+  </style>
+
+  <!-- Local Business Schema (replace placeholders) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Precision Concrete & Construction",
+    "image": "",
+    "telephone": "346-508-4236",
+    "email": "7hew0rk@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Houston",
+      "addressRegion": "TX",
+      "postalCode": "[Zip]",
+      "addressCountry": "US"
+    },
+    "areaServed": ["Houston", "Hockley", "Cypress", "Katy", "Tomball", "Jersey Village"],
+    "url": "[Your Website URL]",
+    "sameAs": ["[Your Google Business Profile URL]", "[Your Facebook Page URL]"]
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="logo" aria-hidden="true"></span>
+        <div>
+          <b>Precision Concrete & Construction</b><br/>
+          <span style="color:var(--muted);font-size:12px;font-weight:800">Concrete • Driveways • Patios</span>
+        </div>
+      </a>
+      <nav class="navlinks" aria-label="Primary">
+        <a href="#services">Services</a>
+        <a href="#process">Process</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#quote">Free Quote</a>
+      </nav>
+      <div class="cta">
+        <a class="btn" href="tel:+13465084236">Call: 346-508-4236</a>
+        <a class="btn primary" href="#quote">Get a Free Quote</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top" class="wrap">
+    <div class="hero">
+      <div class="grid">
+        <div>
+          <h1 class="headline">Concrete driveways & patios done clean — across Houston.</h1>
+          <p class="sub">We manage your project start-to-finish and coordinate a proven concrete crew. Fast estimates, clear scopes, and reliable scheduling.</p>
+          <div class="badges">
+            <span class="pill">Free On‑Site Estimate</span>
+            <span class="pill">Driveways • Patios • Slabs</span>
+            <span class="pill">Broom Finish • Control Joints</span>
+            <span class="pill">Houston & Surrounding Areas</span>
+          </div>
+          <div style="display:flex;flex-wrap:wrap;gap:10px">
+            <a class="btn primary" href="#quote">Request a Quote</a>
+            <a class="btn" href="#services">View Services</a>
+          </div>
+          <p class="note">Text a photo + address for a same‑day ballpark: <a href="sms:+13465084236">346-508-4236</a></p>
+        </div>
+
+        <aside class="card heroCard">
+          <h3>What you get</h3>
+          <p>Simple, professional work that lasts — with no surprises.</p>
+          <ul>
+            <li><span class="check">✓</span>Written scope, thickness, reinforcement, and finish</li>
+            <li><span class="check">✓</span>Proper base prep + compaction recommendations</li>
+            <li><span class="check">✓</span>Clean forms, straight edges, and neat broom finish</li>
+            <li><span class="check">✓</span>Optional demo/haul‑off and grading</li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+
+    <section id="services">
+      <h2 class="sectionTitle">Services</h2>
+      <p class="sectionSub">Residential concrete work — driveways, patios, slabs, and the small jobs others don’t want.</p>
+      <div class="cards">
+        <div class="card svc"><b>Driveways</b><p>Remove & replace, extensions, and new pours. Control joints and clean tie‑ins.</p></div>
+        <div class="card svc"><b>Patios</b><p>Backyard slabs for seating, grills, pergolas, and outdoor living upgrades.</p></div>
+        <div class="card svc"><b>Slabs & Pads</b><p>Shed slabs, trash pads, RV pads, walkways, and small flatwork.</p></div>
+      </div>
+    </section>
+
+    <section id="process">
+      <div class="two">
+        <div class="card" style="padding:16px">
+          <h2 class="sectionTitle" style="margin-top:0">Our process</h2>
+          <p class="sectionSub">Clear steps so you know what’s happening and when.</p>
+          <ol style="margin:0;padding-left:18px;color:var(--muted);display:grid;gap:10px">
+            <li><b style="color:var(--text)">Measure & quote</b> — we confirm dimensions, access, and scope.</li>
+            <li><b style="color:var(--text)">Prep day</b> — forms, base, reinforcement, and grading check.</li>
+            <li><b style="color:var(--text)">Pour & finish</b> — placement, broom finish, joints, and cleanup.</li>
+            <li><b style="color:var(--text)">Cure & walkthrough</b> — care instructions and final check.</li>
+          </ol>
+        </div>
+        <div class="card" style="padding:16px">
+          <h2 class="sectionTitle" style="margin-top:0">Service area</h2>
+          <p class="sectionSub">We cover Houston and nearby cities. If you’re not sure, ask.</p>
+          <div style="display:flex;flex-wrap:wrap;gap:10px">
+            <span class="pill">Houston</span><span class="pill">Hockley</span><span class="pill">Cypress</span>
+            <span class="pill">Katy</span><span class="pill">Tomball</span><span class="pill">Jersey Village</span>
+            <span class="pill">Spring</span><span class="pill">Waller</span>
+          </div>
+          <p class="note">Need a permit? If your driveway connects to a state highway (FM/SH/US), TxDOT may be required. We’ll tell you what applies.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <h2 class="sectionTitle">Recent work</h2>
+      <p class="sectionSub">Replace these placeholders with your job photos as you complete projects.</p>
+      <div class="gallery">
+        <div class="ph">Driveway — Before/After</div>
+        <div class="ph">Patio Slab</div>
+        <div class="ph">Walkway</div>
+      </div>
+    </section>
+
+    <section id="quote">
+      <div class="two">
+        <div class="card" style="padding:16px">
+          <h2 class="sectionTitle" style="margin-top:0">Request a free quote</h2>
+          <p class="sectionSub">Fill this out and we’ll respond quickly. For fastest service, text a photo + address.</p>
+          <!--
+            This form uses FormSubmit (no backend needed).
+            1) Replace YOUR_EMAIL_HERE with your email.
+            2) On first submit, FormSubmit will email you a confirmation.
+            3) You can also replace this with a Google Form later.
+          -->
+          <form action="https://formsubmit.co/7hew0rk@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="New Concrete Quote Request" />
+            <input type="hidden" name="_captcha" value="false" />
+            <div class="row">
+              <div>
+                <label for="name">Name</label>
+                <input id="name" name="name" placeholder="Your name" required />
+              </div>
+              <div>
+                <label for="phone">Phone</label>
+                <input id="phone" name="phone" placeholder="(###) ###-####" required />
+              </div>
+            </div>
+
+            <label for="email">Email (optional)</label>
+            <input id="email" name="email" placeholder="you@email.com" type="email" />
+
+            <div class="row">
+              <div>
+                <label for="service">Service</label>
+                <select id="service" name="service" required>
+                  <option value="Driveway">Driveway</option>
+                  <option value="Patio">Patio</option>
+                  <option value="Slab/Pad">Slab / Pad</option>
+                  <option value="Walkway">Walkway</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+              <div>
+                <label for="timing">When do you want it done?</label>
+                <select id="timing" name="timing" required>
+                  <option value="ASAP">ASAP</option>
+                  <option value="1-2 weeks">1–2 weeks</option>
+                  <option value="3-6 weeks">3–6 weeks</option>
+                  <option value="Flexible">Flexible</option>
+                </select>
+              </div>
+            </div>
+
+            <label for="address">Job Address</label>
+            <input id="address" name="address" placeholder="Street, City, ZIP" required />
+
+            <label for="details">Details</label>
+            <textarea id="details" name="details" placeholder="Approx dimensions, remove & replace or new, any slope/drainage concerns, gate access, etc." required></textarea>
+
+            <button class="btn primary" type="submit" style="width:100%;padding:12px;border-radius:16px;cursor:pointer">Send Request</button>
+            <p class="note">By submitting, you agree we may contact you by call/text to coordinate an estimate.</p>
+          </form>
+        </div>
+
+        <div class="card" style="padding:16px">
+          <h2 class="sectionTitle" style="margin-top:0">Contact</h2>
+          <p class="sectionSub">Reach us directly.</p>
+          <div style="display:grid;gap:10px;color:var(--muted)">
+            <div><b style="color:var(--text)">Phone:</b> <a href="tel:+13465084236">346-508-4236</a></div>
+            <div><b style="color:var(--text)">Text:</b> <a href="sms:+13465084236">346-508-4236</a></div>
+            <div><b style="color:var(--text)">Email:</b> <a href="mailto:7hew0rk@gmail.com">7hew0rk@gmail.com</a></div>
+            <div><b style="color:var(--text)">Hours:</b> Mon–Sat, 8am–6pm</div>
+          </div>
+          <hr style="border:0;border-top:1px solid var(--line);margin:16px 0" />
+          <h3 style="margin:0 0 8px">What we specialize in</h3>
+          <ul style="margin:0;padding-left:18px;color:var(--muted);display:grid;gap:8px">
+            <li>Residential concrete flatwork</li>
+            <li>Clean edges, broom finish, neat joints</li>
+            <li>Driveway replacements & extensions</li>
+            <li>Patios and small slabs</li>
+          </ul>
+          <p class="note" style="margin-top:14px">Tip: Add a Google Business Profile and link it here — it’s the best lead source in Houston.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="wrap foot">
+      <div>© <span id="y"></span> Precision Concrete & Construction. All rights reserved.</div>
+      <div style="display:flex;gap:12px;flex-wrap:wrap">
+        <a href="#services">Services</a>
+        <a href="#quote">Free Quote</a>
+        <a href="#top">Back to top</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
